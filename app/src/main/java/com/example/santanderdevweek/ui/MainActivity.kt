@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.tv_agency).text = account.agency
         findViewById<TextView>(R.id.tv_current_account).text = account.number
         findViewById<TextView>(R.id.tv_balance).text = account.balance
-        findViewById<TextView>(R.id.tv_limit_balance).text = account.limit
+        findViewById<TextView>(R.id.tv_sum_limit_balance).text = account.limit
         findViewById<TextView>(R.id.tv_value_final_card).text = account.card.finalNumber
     }
 
